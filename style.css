@@ -1,0 +1,122 @@
+body{
+    background-color: #ede7e7;
+    width: auto;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.container{
+    height: 80vh;
+    width: auto;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    overflow: auto;
+    /* flex-wrap: nowrap; */
+}
+.item{
+    height: inherit;
+    border: 2px solid rgb(202, 202, 202);
+    width: 450px;
+    border-radius: 15px;
+    margin-left: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    background-color: rgb(237, 240, 237);
+    
+}
+#addtask {
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(215, 155, 252);
+    color: white;
+    margin-left: 750px;
+    margin-top: 20px;
+}
+#addfield{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(57, 156, 218);
+    color: white;
+    margin-left: 10px;
+    /* margin-top: 10px; */
+}
+#addtask:hover{
+    scale: 1.05;
+    transition: 100ms;
+    background-color: rgb(188, 129, 226);
+
+   
+}
+#addfield:hover{
+    scale: 1.05;
+    transition: 100ms;
+    background-color: rgb(49, 133, 185);
+
+   
+}
+.items{
+    width: 400px;
+    border: 2px solid rgb(202, 202, 202);
+    min-height: 60px;
+    margin: 13px;
+    border-radius: 10px;
+    /* text-align: center; */
+    font-size: 35px;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: grab;
+    padding-top: 25px;
+    background-color: rgb(238, 235, 231);
+   
+
+    font-weight: 500;
+    overflow: hidden;
+
+}
+button:hover{
+    scale: 1.05;
+    transition: 200ms;
+}
+.items:active{
+    cursor: grabbing;
+    
+}
+.items:hover{
+    scale: 1.05;
+    transition: 200ms;
+}
+.deletebtn{
+    margin-left: 15px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(227, 119, 119);
+    border: none;
+    color: white;
+    width: 70px;
+}
+.editbtn{
+    margin-left: 15px;
+    cursor: pointer;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(85, 160, 85);
+    border: none;
+    color: white;
+    width: 50px;
+}
